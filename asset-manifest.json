@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/diabetes_scan/static/css/main.d0823fa1.css",
+    "main.js": "/diabetes_scan/static/js/main.d91d0e0a.js",
+    "index.html": "/diabetes_scan/index.html",
+    "main.d0823fa1.css.map": "/diabetes_scan/static/css/main.d0823fa1.css.map",
+    "main.d91d0e0a.js.map": "/diabetes_scan/static/js/main.d91d0e0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0823fa1.css",
+    "static/js/main.d91d0e0a.js"
+  ]
+}
