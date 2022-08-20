@@ -1,3 +1,4 @@
+import { Typography } from '@material-ui/core';
 import React from 'react';
 import Webcam from 'react-webcam';
 import './App.css';
@@ -15,11 +16,10 @@ function App() {
 
     return (
         <div className="App">
-            <header className="App-header">
-                <Webcam ref={webCamRef} audio={false} screenshotFormat="image/jpeg" />
-                <button onClick={capture}> capture </button>
-                {imgSrc && <img src={imgSrc} alt={'kaki'} />}
-            </header>
+            <Typography variant="h3">Diabetes Scan</Typography>
+            <Webcam ref={webCamRef} audio={false} screenshotFormat="image/jpeg" />
+            <button onClick={capture}> capture </button>
+            {imgSrc && <img src={imgSrc} alt={'kaki'} width={320} height={240} />}
         </div>
     );
 }
