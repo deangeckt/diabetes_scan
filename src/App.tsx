@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
 import Webcam from 'react-webcam';
+import './App.css';
 
 function App() {
     const webCamRef = React.useRef<Webcam>(null);
@@ -16,7 +16,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Webcam ref={webCamRef} audio={false} height={720} screenshotFormat="image/jpeg" width={1280} />
+                <Webcam ref={webCamRef} audio={false} screenshotFormat="image/jpeg" />
                 <button onClick={capture}> capture </button>
                 {imgSrc && <img src={imgSrc} alt={'kaki'} />}
             </header>
